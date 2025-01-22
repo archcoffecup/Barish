@@ -2,48 +2,45 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white for readability */
 }
 
 header {
-    background-color: #343a40;
+    background-color: #333;
     color: white;
-    padding: 1rem;
+    padding: 1em 0;
+    text-align: center;
 }
 
-header nav ul {
-    list-style: none;
+nav ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin-right: 1rem;
+    margin: 0 1em;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
 .hero {
-    text-align: center;
-    padding: 3rem 1rem;
-    background-color: #4CAF50;
-    color: white;
-}
-
-.menu {
-    padding: 2rem 1rem;
+    background-color: #444;
+    padding: 2em 0;
     text-align: center;
 }
 
 footer {
-    background-color: #343a40;
+    background-color: #333;
     color: white;
+    padding: 1em 0;
     text-align: center;
-    padding: 1rem;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
 }
